@@ -213,16 +213,15 @@ insert into AppliedTransacaoCashier values (9,'46932507');
 insert into AppliedTransacaoCashier values (10,'46932507');
 
 insert into AppliedTransacaoCliente values (1,'63832859');
-insert into AppliedTransacaoCliente values (1,'12545678');
-insert into AppliedTransacaoCliente values (1,'12545678');
-insert into AppliedTransacaoCliente values (1,'76543290');
-insert into AppliedTransacaoCliente values (1,'12345420');
-insert into AppliedTransacaoCliente values (1,'12345678');
-insert into AppliedTransacaoCliente values (1,'76543290');
-insert into AppliedTransacaoCliente values (1,'63832859');
-insert into AppliedTransacaoCliente values (1,'12345678');
-insert into AppliedTransacaoCliente values (1,'12345420');
-insert into AppliedTransacaoCliente values (1,'12345678');
+insert into AppliedTransacaoCliente values (2,'12545678');
+insert into AppliedTransacaoCliente values (3,'12545678');
+insert into AppliedTransacaoCliente values (4,'76543290');
+insert into AppliedTransacaoCliente values (5,'12345420');
+insert into AppliedTransacaoCliente values (6,'12345678');
+insert into AppliedTransacaoCliente values (7,'76543290');
+insert into AppliedTransacaoCliente values (8,'63832859');
+insert into AppliedTransacaoCliente values (9,'12345678');
+insert into AppliedTransacaoCliente values (10,'12345420');
 
 insert into Bar values (1,'Lucky Strike');
 
