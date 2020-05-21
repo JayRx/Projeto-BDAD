@@ -1,5 +1,4 @@
 # Projeto BDAD - G101
----
 ##### Criado por:
 * Luís André Santos Correia Assunção
 * Luis Guilherme de Melo Félix Diogo
