@@ -21,7 +21,7 @@
 ###### Triggers:
 * [trigger_aposta_metade_salario.sql](trigger_aposta_metade_salario.sql) - Verifica se um Empregado apostou mais de metade do seu salário
 * [trigger_salario_verifica.sql](trigger_salario_verifica.sql) - Verifica o trigger anterior
-
+<br />
 * [trigger_apostas_improvaveis_ganhas.sql](trigger_apostas_improvaveis_ganhas.sql) - Verifica se um Cliente ganhou duas ou mais apostas com probabilidade inferior a 0.1 (de 0 a 1) (probabilidade de o casino ganhar: maior que 0.9) no mesmo dia
 * [trigger_apostas_improvaveis_ganhas.sql](trigger_apostas_improvaveis_ganhas.sql) - Elimina o trigger anterior
 * [trigger_apostas_improvaveis_ganhas.sql](trigger_apostas_improvaveis_ganhas.sql) - Verifica o trigger anterior
