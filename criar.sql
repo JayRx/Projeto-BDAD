@@ -17,6 +17,7 @@ DROP TABLE IF EXISTS AppliedBarmanBar;
 DROP TABLE IF EXISTS Bar;
 DROP TABLE IF EXISTS Barman;
 DROP TABLE IF EXISTS AppliedTransacaoCliente;
+DROP TABLE IF EXISTS ApostaImprovavelGanha;
 DROP TABLE IF EXISTS AppliedTransacaoCashier;
 DROP TABLE IF EXISTS Cashier;
 DROP TABLE IF EXISTS Transacao;
@@ -154,6 +155,12 @@ CREATE TABLE Cliente (
 );
 
 CREATE TABLE AppliedApostaCliente (
+  CC CHAR(8) REFERENCES Cliente(CC),
+  idAposta INT REFERENCES Aposta(idAposta),
+  PRIMARY KEY (idAposta)
+);
+
+CREATE TABLE ApostaImprovavelGanha (
   CC CHAR(8) REFERENCES Cliente(CC),
   idAposta INT REFERENCES Aposta(idAposta),
   PRIMARY KEY (idAposta)
