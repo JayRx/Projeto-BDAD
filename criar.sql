@@ -11,6 +11,7 @@ DROP TABLE IF EXISTS Comprado;
 DROP TABLE IF EXISTS Preco_Compra;
 DROP TABLE IF EXISTS Fornece;
 DROP TABLE IF EXISTS Fornecedor;
+DROP TABLE IF EXISTS Funcionario_Viciado;
 DROP TABLE IF EXISTS Applied2;
 DROP TABLE IF EXISTS Produto;
 DROP TABLE IF EXISTS AppliedBarmanBar;
@@ -48,6 +49,12 @@ CREATE TABLE Pessoa(
   idade INT CHECK(idade >= 18),
   codigoPostal CHAR(8),
   telefone CHAR(9)
+);
+
+CREATE TABLE Funcionario_Viciado(
+CC CHAR(8) REFERENCES Pessoa(CC),
+nome VARCHAR(100) NOT NULL,
+PRIMARY KEY(CC)
 );
 
 CREATE TABLE Empregado (
