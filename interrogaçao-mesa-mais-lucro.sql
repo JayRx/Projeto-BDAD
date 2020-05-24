@@ -1,3 +1,6 @@
+.mode columns
+.headers on
+.nullvalue	NULL
 CREATE VIEW valorGanho
 AS
   SELECT*FROM(SELECT*FROM(SELECT idAposta,sum(valor) AS Ganho FROM Aposta natural join AppliedApostaMesa WHERE resultado='W') natural join Mesa);
