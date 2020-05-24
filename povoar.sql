@@ -144,6 +144,7 @@ insert into Aposta values (18,'2019-08-01',80,'W',0.55);
 insert into Aposta values (19,'2019-08-01',160,'L',0.55);
 
 insert into Aposta values (20,'2019-08-01',420,'L',0.8);
+insert into Aposta values (21,'2019-08-01',10000,'L',0.7);
 
 insert into AppliedApostaMaquina values (1,1);
 insert into AppliedApostaMaquina values (1,2);
@@ -189,6 +190,7 @@ insert into AppliedApostaCliente values ('12345420',17);
 insert into AppliedApostaCliente values ('63832859',18);
 insert into AppliedApostaCliente values ('12345420',19);
 insert into AppliedApostaCliente values ('63832859',20);
+insert into AppliedApostaCliente values ('12345420',21);
 
 insert into Transacao values(1,500,'dinheiroToken');
 insert into Transacao values(2,100,'dinheiroToken');

@@ -1,0 +1,1 @@
+insert into Fornecedor values (36,'Licores Artesanais do Jorge');

@@ -1,1 +1,0 @@
-drop trigger if exists funcionario_viciado;

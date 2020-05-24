@@ -1,6 +1,9 @@
 PRAGMA foreign_keys = ON;
 PRAGMA encoding = "UTF-8";
 
+.headers ON
+.mode column
+
 DROP TABLE IF EXISTS Applied3;
 DROP TABLE IF EXISTS Artista;
 DROP TABLE IF EXISTS Sala_Espetaculo;
@@ -11,7 +14,7 @@ DROP TABLE IF EXISTS Comprado;
 DROP TABLE IF EXISTS Preco_Compra;
 DROP TABLE IF EXISTS Fornece;
 DROP TABLE IF EXISTS Fornecedor;
-DROP TABLE IF EXISTS Funcionario_Viciado;
+DROP TABLE IF EXISTS Batoteiro;
 DROP TABLE IF EXISTS Applied2;
 DROP TABLE IF EXISTS Produto;
 DROP TABLE IF EXISTS AppliedBarmanBar;
@@ -51,9 +54,8 @@ CREATE TABLE Pessoa(
   telefone CHAR(9)
 );
 
-CREATE TABLE Funcionario_Viciado(
+CREATE TABLE Batoteiro(
 CC CHAR(8) REFERENCES Pessoa(CC),
-nome VARCHAR(100) NOT NULL,
 PRIMARY KEY(CC)
 );
 
